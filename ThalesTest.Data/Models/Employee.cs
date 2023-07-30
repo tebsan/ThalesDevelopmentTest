@@ -1,10 +1,9 @@
-﻿using ThalesTest.API.Business;
+﻿using CommonComponents.Interfaces;
 
-namespace ThalesTest.API.Models
+namespace ThalesTest.Data.Models
 {
-    public class Employee
+    public class Employee:IEmployee
     {
-
         public int id { get; set; }
         public string employee_name { get; set; }
         public long employee_salary { get; set; }

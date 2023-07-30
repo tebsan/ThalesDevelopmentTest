@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using CommonComponents.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ThalesTest.API.Interfaces;
 
 namespace ThalesTest.API.Controllers
 {

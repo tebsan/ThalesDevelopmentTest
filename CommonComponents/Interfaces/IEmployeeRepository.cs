@@ -1,7 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using ThalesTest.API.Models;
+﻿using System.Threading.Tasks;
 
-namespace ThalesTest.API.Interfaces
+namespace CommonComponents.Interfaces
 {
     public interface IEmployeeRepository
     {

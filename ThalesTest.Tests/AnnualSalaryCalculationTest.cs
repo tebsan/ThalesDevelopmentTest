@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestPlatform.CrossPlatEngine;
 using ThalesTest.API.Business;
-using ThalesTest.API.Models;
+using ThalesTest.Data.Models;
 
 namespace ThalesTest.Tests
 {
@@ -22,7 +22,7 @@ namespace ThalesTest.Tests
         public void Test1()
         {
             testEmployee.employee_annual_salary = EmployeeHelper.CalculateAnualSalary(testEmployee.employee_salary);
-            Assert.AreEqual(EXPECTED_SALARY, testEmployee.employee_annual_salary);
+            Assert.That(testEmployee.employee_annual_salary, Is.EqualTo(EXPECTED_SALARY));
         }
     }
 }

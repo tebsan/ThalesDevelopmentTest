@@ -41,7 +41,6 @@
         $("#dataTable").hide();
     }
 
-    // Allow only integers in the textbox
     $("#employeeId").on("input", function () {
         this.value = this.value.replace(/[^0-9]/g, "");
     });

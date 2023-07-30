@@ -1,5 +1,5 @@
-﻿using ThalesTest.API.Data;
-using ThalesTest.API.Interfaces;
+﻿using CommonComponents.Interfaces;
+using ThalesTest.Data.Data;
 
 namespace ThalesTest.API.Startup
 {

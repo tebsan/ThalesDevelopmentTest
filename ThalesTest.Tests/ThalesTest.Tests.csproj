@@ -17,7 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\EmployeeBL\ThalesTest.EmployeeBL.csproj" />
     <ProjectReference Include="..\ThalesTest.API\ThalesTest.API.csproj" />
+    <ProjectReference Include="..\ThalesTest.Data\ThalesTest.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace ThalesTest.API.Models
+﻿namespace ThalesTest.Data.Models
 {
     public class ApiResponse
     {

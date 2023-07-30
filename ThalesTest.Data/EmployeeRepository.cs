@@ -1,17 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿
 using Newtonsoft.Json;
 using RestSharp;
-using System;
-using System.IO;
-using System.Net.Http.Json;
-using System.Numerics;
-using System.Text.Json.Serialization;
+using CommonComponents.Interfaces;
+using ThalesTest.Data.Models;
 using ThalesTest.API.Business;
-using ThalesTest.API.Interfaces;
-using ThalesTest.API.Models;
 
-namespace ThalesTest.API.Data
+namespace ThalesTest.Data.Data
 {
     public class EmployeeRepository : IEmployeeRepository
     {
