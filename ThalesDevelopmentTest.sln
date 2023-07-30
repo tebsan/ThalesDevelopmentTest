@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThalesDevelopmentTest", "ThalesDevelopmentTest\ThalesDevelopmentTest.csproj", "{D65C3F75-1BB0-4E3D-B74E-9D1E85382212}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThalesTest.Web", "ThalesDevelopmentTest\ThalesTest.Web.csproj", "{D65C3F75-1BB0-4E3D-B74E-9D1E85382212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThalesTest.API", "ThalesTest.API\ThalesTest.API.csproj", "{A5205A6D-3C90-4C36-B7D5-5A92BFFD1858}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThalesTest.Tests", "ThalesTest.Tests\ThalesTest.Tests.csproj", "{2156032B-ABA2-4404-B777-B3AEA7E8F9E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D65C3F75-1BB0-4E3D-B74E-9D1E85382212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D65C3F75-1BB0-4E3D-B74E-9D1E85382212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D65C3F75-1BB0-4E3D-B74E-9D1E85382212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5205A6D-3C90-4C36-B7D5-5A92BFFD1858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5205A6D-3C90-4C36-B7D5-5A92BFFD1858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5205A6D-3C90-4C36-B7D5-5A92BFFD1858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5205A6D-3C90-4C36-B7D5-5A92BFFD1858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2156032B-ABA2-4404-B777-B3AEA7E8F9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2156032B-ABA2-4404-B777-B3AEA7E8F9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2156032B-ABA2-4404-B777-B3AEA7E8F9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2156032B-ABA2-4404-B777-B3AEA7E8F9E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
